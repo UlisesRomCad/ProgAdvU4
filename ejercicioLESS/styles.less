@@ -1,0 +1,44 @@
+@letter-colour: #ddd;
+@button-colour: rgb(39, 97, 173);
+
+body{
+    background-color: black;
+}
+
+.mainLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 300px;
+    width: 300px;
+    background-image: linear-gradient(to bottom, #653f96, #ff7300);
+
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: large;
+        color: @letter-colour;
+    }
+
+    h2{
+        color: @letter-colour
+    }
+
+    input[type="text"]{
+        width: 200px;
+        height: 25px;
+       
+    }
+
+    input[type="password"]{
+        width: 200px;
+        height: 25px;
+        margin-bottom: 20px;
+    }
+
+    button{
+        color: @letter-colour;
+        background-color: @button-colour;
+    }
+}
